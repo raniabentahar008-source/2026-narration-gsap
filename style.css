@@ -1,0 +1,158 @@
+/* Bases ---------------*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/* Variables----------------*/
+
+/* Typoghraphies-----------------*/
+
+/* design de la plage-------------------*/
+.h100{
+    min-height:  100vh;
+    background-color: rgb(19, 188, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bglight{
+    background-color: rgb(10, 9, 10);
+}
+.bgdark{
+    background-color: black;
+}
+
+.block{
+    background-color: rgb(206, 124, 16);
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+/* Header -------------------*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: seashell;
+}
+
+.search{
+
+    font-size: 20px;
+
+}
+
+.logo{
+
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.header-icons{
+
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+
+/* Section 1 ---------------- */
+
+#section1{
+    flex-direction: column;
+}
+
+.blocPhoto_bloc{
+    width: 33,33%;
+    display:flex
+}
+
+.blocPhoto_images{
+    width: 100%;
+    display: flex;
+}
+.blocPhoto{
+
+    display: flex;
+    width: 100%;
+
+}
+/* Premiere section */
+
+.h100:first-of-type{
+    display: flex;
+    min-height: auto;
+}
+
+/* Section 2 ---------------- */
+
+#section2{
+    background-color: seashell;
+    display: block;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.everyday h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.everyday p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+    
+ /* Les 5 photos de la section 2 */
+
+.lignePhoto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lignePhoto img{
+    width: 150px;
+}
+.lignePhoto{
+    margin-bottom: 80px ;
+}
+
+/* Section 3 -------------------*/
+
+#section3{
+    background-color: seashell;
+    display: block;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between ;
+    align-items: start;
+    gap: 20px;
+}
+.carteVideo{
+    width: 35%;
+}
+
+.carteVideo video{
+    width: 100%;
+}
+
+.imoraText{
+    width: 35%;
+}
+
+.imoraText img{
+    width: 60%;
+}
