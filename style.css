@@ -56,6 +56,11 @@ header{
     font-weight: 500;
 
 }
+.logo span{
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+}
 
 .header-icons{
 
@@ -73,7 +78,7 @@ header{
 }
 
 .blocPhoto_bloc{
-    width: 33,33%;
+    width: 33.33%;
     display:flex
 }
 
